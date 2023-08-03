@@ -1,4 +1,4 @@
-const socket = io('https://chat-server-y3bn.onrender.com');
+const socket = io('https://porxy-cors.onrender.com/https://chat-server-y3bn.onrender.com');
 
 const form = document.getElementById('send-container');
 
