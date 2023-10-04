@@ -1,4 +1,4 @@
-const socket = io('https://chat-server-y3bn.onrender.com',{ transports : ['websocket'] });
+const socket = io('SERVER_URL',{ transports : ['websocket'] });
 
 const form = document.getElementById('send-container');
 
